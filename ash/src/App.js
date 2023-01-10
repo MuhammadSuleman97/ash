@@ -1,5 +1,3 @@
-
-import './App.css';
 import BasicInfo from './components/profile/basicInfo';
 import SearchBar from './components/profile/searchBar';
 
