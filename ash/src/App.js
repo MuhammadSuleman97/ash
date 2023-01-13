@@ -1,4 +1,4 @@
-import UserProfile from './components/user-profile/userProfile.js';
+import UserProfile from './components/user-profile/profile/userProfile.js';
 import './App.css';
 function App() {
   return (

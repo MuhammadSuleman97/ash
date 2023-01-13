@@ -6,7 +6,6 @@ import profileIcon from '../../assets/profile-icon.svg'
 import teamIcon from '../../assets/team-icon.svg'
 import connectionIcon from '../../assets/connection-icon.svg'
 import projectIcon from '../../assets/projects-icon.svg'
-import './cs.css'
 import NavigationButton from "./navigationButton";
 export default function ProfileNavigator(){
     const [selector,setSelector] = useState(false)

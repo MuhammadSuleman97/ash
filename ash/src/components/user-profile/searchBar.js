@@ -2,7 +2,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
 import search from '../../assets/searchIcon.svg'
-import SearchBara from './searchBar.css'
 import Vector1 from '../../assets/Vector.svg'
 import grid from '../../assets/bx-grid-alt.svg'
 import moon from '../../assets/bx-moon.svg'

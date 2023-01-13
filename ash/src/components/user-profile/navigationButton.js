@@ -1,26 +1,9 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable jsx-a11y/alt-text */
 import React, { useState } from "react";
-// import ReactDOM from "react-dom";
-import profileIcon from '../../assets/profile-icon.svg'
-import teamIcon from '../../assets/team-icon.svg'
-import connectionIcon from '../../assets/connection-icon.svg'
-import projectIcon from '../../assets/projects-icon.svg'
-import './cs.css'
-export default function NavigationButton({text,image,clickEvent,classes='flex justify-between items-center bg-indigo-700 text-white py-2 px-6 text-sm rounded-md mr-1 '}){
-    const [selector,setSelector] = useState(false)
-    // const [activeButton,setActiveButton] = useState('PROFILE')
-    // // let selected =''
-    // const activeClasses = 'flex justify-between items-center bg-indigo-700 text-white py-2 px-6 text-sm rounded-md mr-1 '
-    // const nonActiveClasses =  'flex justify-between items-center text-black py-2 px-6 text-sm rounded-md mr-1 '
-    // const handleSelector = (e) => {
-    //     const {textContent} = e.target;
-    //     setActiveButton(textContent)
-    //     // selected = e.target.textName;
-    //     setSelector(!selector)
-    // }
 
-
+export default function NavigationButton({text,image,clickEvent,classes}){
+    
     return (
             <div className={classes} onClick={clickEvent} >
                     <div className='w-4 mr-2'>
